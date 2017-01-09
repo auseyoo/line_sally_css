@@ -6,18 +6,17 @@ body {
   background: $naver_color;
 }
 .sally {
-  position:absolute;
-  left:100px;
-  width:400px;
-  overflow:hidden;
+  width: 400px;
+  overflow: hidden;
+  margin: 0 auto;
 
-   .sally_inner {
-    position:relative;
-    height:390px;
+  .sally_inner {
+    position: relative;
+    height: 244px;
 
-     .head {
+    .head {
       position: absolute;
-      top: 100px;
+      top: 93px;
       left: 0;
       right: 0;
       width: 113px;
@@ -28,7 +27,7 @@ body {
       background: #FFD439;
       transform: rotate(-3deg);
 
-        .face {
+      .face {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -115,20 +114,20 @@ body {
               }
             }
           }
-         }
-       }
-     }
-     .body {
-       position: absolute;
-       top: 48%;
-       left: 40%;
-       width: 84px;
-       height: 114px;
-       background: #FFD439;
-       border-radius: 32% 24% 26% 41%;
-       transform: rotate(93deg);
+        }
+      }
+    }
+    .body {
+      position: absolute;
+      top: 69%;
+      left: 40%;
+      width: 84px;
+      height: 114px;
+      background: #FFD439;
+      border-radius: 32% 24% 26% 41%;
+      transform: rotate(93deg);
       z-index: -1;
 
-     }
+    }
   }
 }
